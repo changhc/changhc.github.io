@@ -3,28 +3,11 @@
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-github_username:  dashingcode
-facebook_username: your_facebook_username_goes_here
-linkedin_username: your_linked_in_username_goes_here
+github_username:  changhc
+facebook_username: "100000440013230"
+linkedin_username: "huan-cheng-chang-59705275"
 #flickr_username: your_flickr_username_goes_here
 #blog_url: "/blog"
-
-
-avatar: yes
-#avatar_img_path: "imgs/avatar.jpg""
-# You can link to your GitHub image. That way it will get updated
-# automatically whenever you change your GitHub profile picture
-avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
-
-
-front_img: yes
-front_img_path: "img/background.jpg"
-#front_img_path: "https://external.url/image.jpg"
-
-
-#favicon_img: yes
-#favicon_img_path: "imgs/favicon.ico"
-#favicon_img_path: "https://external.url/favicon.ico"
 
 
 # Build settings
@@ -89,7 +72,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/20160610_153240_HDR.jpg"
 
 self-intro: "Bachelor of Electrical Engineering, National Taiwan University<br>
 Aim to build impactful products and solve real world challenges."
@@ -160,7 +143,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "b02901032@ntu.edu.tw"
 
 ################
 # Author Blurb #
