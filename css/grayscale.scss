@@ -16,6 +16,11 @@ body {
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $font-color;
     background-color: $primary-color;
+    text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
     {% if site.background-img %}
         background: url({{ site.background-img }}) no-repeat bottom center scroll;
         background-repeat: no-repeat;
@@ -240,10 +245,10 @@ a {
 
 .content-section {
     margin-top: 100px;
-    padding-top: 100px;
+    padding-top: 20px;
     @media(min-width:767px) {
         margin-top: 125px;
-        padding-top: 125px;
+        padding-top: 25px;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
