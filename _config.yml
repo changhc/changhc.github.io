@@ -181,7 +181,7 @@ pages_list:
   About: 'about'
   Project: 'project'
   Blog: 'blog-link'
-  Timeline: 'timeline'
+#  Timeline: 'timeline'
 
 # Exclusion list from the generated _site
 
