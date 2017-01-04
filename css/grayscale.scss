@@ -457,3 +457,65 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+.project {
+    background-color: rgba(115, 173, 33, 0.8); 
+    border-radius: 25px;
+    padding: 5px; 
+    margin: 0.5em; 
+    width: 20%;
+    display: inline-table;
+    h3{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-weight: 300;
+        height: 80px;
+        a{
+            color: #000000;
+            font-weight: 300;
+            &:hover{
+                color: #003300;
+            }
+        }
+    }
+
+    .project-description {
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        transform: translate(0,10px);
+        background-color: #BFBFBF;
+        padding: 0;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        width: auto;
+
+        &:before{
+            position: absolute;
+            z-index: -1;
+            content: '';
+            right: calc(50% - 10px);
+            top: -8px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent #BFBFBF transparent;
+            transition-duration: 0.3s;
+            transition-property: transform;
+            height: 0;
+        }
+    }
+
+    &:hover{
+        .project-description{
+            z-index: 10;
+            opacity: 1;
+            visibility: visible;
+            transform: translate(0,-20px);
+            transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+            text-align: center;
+        }
+    }
+    
+    @media(max-width:768px) {
+           width: 40%;
+    }
+}
+

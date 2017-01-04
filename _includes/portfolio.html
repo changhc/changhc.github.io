@@ -9,24 +9,25 @@
       <div class="portfolio">
 
         {% for project in site.projects %}
-          {% if loop.index % 4 == 0 %}
+          {% assign loopindex = forloop.index | modulo: 4 %}
+          {% if loopindex == 1 %}
             <div class="row">
           {% endif %}
 
-              <div class="col-md-3">
+              <div class="project">
                 <h3>
                   {% if project.link != "" %}
                   <a href="{{project.link}}">
                   {% endif %}
-                  {{project.title}}
+                  {{project.title}} 
                   {% if project.link != "" %}
                   </a>
                   {% endif %}
                 </h3>
-                <div>{{project.description}}</div>
+                <div class="project-description">{{project.description}}</div>
                 
               </div>
-          {% if (loop.index % 4 == 0 or loop.last) %}
+          {% if (loopindex == 0 or forloop.last) %}
             </div>
           {% endif %}
         {% endfor %}
