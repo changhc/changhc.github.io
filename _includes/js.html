@@ -27,6 +27,16 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   <script>
   $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse.in").animate({height:"1px"},500,function(){$(".collapse.in").removeClass("in")})})});
   </script>
+  <script>
+    var entries = document.getElementsByClassName("project-entry");
+    for (var i = 0; i < entries.length; ++i) {
+      let k = entries[i];
+      console.log(k.lastElementChild);
+      k.addEventListener('click', () => {
+        k.lastElementChild.classList.toggle('full');
+      });
+    };
+  </script>
 
 {% endif %}
 

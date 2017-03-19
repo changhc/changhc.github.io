@@ -3,10 +3,23 @@
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
   <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="title">
 		{{ page.content | markdownify }}
-
     </div>
+    <ul>
+      {% for post in site.posts %}
+      {% if post.type == 'project' %}
+      <li class="project-entry">
+        <div class="project-title">
+        {{ post.title }}
+        </div>
+        <div class="project-intro">
+        {{ post.content | markdownify}}
+        </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </section>
 

@@ -45,6 +45,7 @@ ul {
     list-style: none;
     padding: 0;
 }
+
 .header-list li {
     border-radius: 100%;
     border: 2px solid white;
@@ -84,6 +85,60 @@ ul {
 .self-intro{
     margin: 1em;
     font-size: 16px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 1em;
+    p {
+        display: inline-block;
+        width: 85%;
+        @media(min-width: 992px) {
+            width: 70%;
+        }
+        
+    }
+}
+
+.project-entry {
+    width: 80%;
+    max-height: 12em;
+    background: #EEE;
+    border-radius: 1em;
+    display: inline-block;
+    margin: 3px 0 3px 0;
+    @media(min-width:992px) {
+        width: 65%;
+    }
+}
+
+.project-intro {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease;
+    margin: 0 1em 5px 1em;
+    color: #000;
+    text-shadow: none;
+    p {
+        text-align: left;
+        font-size: 15px;
+
+        a {
+            color: #33A;
+            font-weight: bold;
+        }
+    }
+}
+.project-intro.full {
+    max-height: 10em;
+}
+
+.project-title {
+    margin: 5px;
+    font-size: 20px;
+    color: #333;
+    text-shadow: none;
+    font-weight: bold;
 }
 
 /*
