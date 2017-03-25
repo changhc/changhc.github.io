@@ -180,7 +180,7 @@ not-found-img: "/img/labtocat.png"
 pages_list:
   About: 'about'
   Project: 'project'
-  Blog: 'blog-link'
+  #Blog: 'blog-link'
 #  Timeline: 'timeline'
 
 # Exclusion list from the generated _site

@@ -93,8 +93,11 @@ ul {
     p {
         display: inline-block;
         width: 85%;
+        text-align: left;
+        text-indent: 2em;
+        margin-bottom: 10px;
         @media(min-width: 992px) {
-            width: 70%;
+            width: 65%;
         }
         
     }
