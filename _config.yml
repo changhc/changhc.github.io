@@ -7,7 +7,7 @@ github_username:  changhc
 facebook_username: "100000440013230"
 linkedin_username: "huan-cheng-chang-59705275"
 #flickr_username: your_flickr_username_goes_here
-#blog_url: "/blog"
+blog_url: "https://medium.com/changhc"
 cv_url: "./CV-Huan-Cheng-Chang.pdf"
 
 # Build settings
@@ -18,7 +18,6 @@ permalink: pretty
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://changhc.github.io"
-
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
@@ -180,7 +179,7 @@ not-found-img: "/img/labtocat.png"
 pages_list:
   About: 'about'
   Project: 'project'
-  #Blog: 'blog-link'
+  Blog: 'blog-link'
 #  Timeline: 'timeline'
 
 # Exclusion list from the generated _site
