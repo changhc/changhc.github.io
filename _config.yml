@@ -8,7 +8,7 @@ facebook_username: "100000440013230"
 linkedin_username: "huan-cheng-chang-59705275"
 #flickr_username: your_flickr_username_goes_here
 blog_url: "https://medium.com/changhc"
-cv_url: "./CV-Huan-Cheng-Chang.pdf"
+cv_url: "./resume-Huan-Cheng-Chang.pdf"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +29,7 @@ url: "https://changhc.github.io"
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "UA-76356561-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
