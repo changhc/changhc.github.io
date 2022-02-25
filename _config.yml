@@ -8,7 +8,7 @@ facebook_username: "100000440013230"
 linkedin_username: "~hc"
 #flickr_username: your_flickr_username_goes_here
 blog_url: "./blog/"
-cv_url: "./resume-Huan-Cheng-Chang.pdf"
+cv_url: "./resume.pdf"
 
 # Build settings
 markdown: kramdown
