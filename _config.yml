@@ -7,7 +7,7 @@ github_username:  changhc
 facebook_username: "100000440013230"
 linkedin_username: "~hc"
 #flickr_username: your_flickr_username_goes_here
-blog_url: "https://medium.com/changhc"
+blog_url: "./blog/"
 cv_url: "./resume-Huan-Cheng-Chang.pdf"
 
 # Build settings
@@ -71,7 +71,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/20160610_153240_HDR.jpg"
+me-img: "/img/me.jpg"
 
 self-intro: "M.S. in Computer Science, École polytechnique fédérale de Lausanne (EPFL)<br>
 Aiming to build impactful products and solve real world challenges."
@@ -143,18 +143,6 @@ timeline-img: "/img/timeline/default.png"
 ###########
 
 email: "hello@changhc.me"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
-
 
 ############
 # 404 page #
